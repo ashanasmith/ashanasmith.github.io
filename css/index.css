@@ -573,28 +573,28 @@ header .navbar.animate {
 
 body,
 .light > * {
-  background-color: #F8F4EE !important;
-  color: #4A403A !important;
+  background-color: #F7F3E9 !important;
+  color: #5E6258 !important;
 }
 
 h1, h2, h3, h4, h5, h6,
 .navbar-brand,
 .nav-link {
-  color: #9C6644 !important;
+  color: #2F3E34!important;
 }
 
 a {
-  color: #A67C52 !important;
+  color: #A3B9A5 !important;
 }
 
 .btn,
 .badge {
-  background-color: #B08968 !important;
-  border-color: #B08968 !important;
+  background-color: #C57A63!important;
+  border-color: #C57A63 !important;
   color: white !important;
 }
 
 .card,
 .list-group-item {
-  background-color: #EFE7DD !important;
+  background-color: #F7F3E9 !important;
 }

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  on Ashana Profile</title>
-		<link>http://localhost:1313/blogs/ai-bias/</link>
+		<link>https://hugo-profile.netlify.app/blogs/ai-bias/</link>
 		<description>Recent content in When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  on Ashana Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,6 +12,6 @@
 		
 			<lastBuildDate></lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/blogs/ai-bias/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://hugo-profile.netlify.app/blogs/ai-bias/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

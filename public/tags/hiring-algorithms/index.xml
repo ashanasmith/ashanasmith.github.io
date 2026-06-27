@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Hiring Algorithms on Ashana Profile</title>
-		<link>http://localhost:1313/tags/hiring-algorithms/</link>
+		<link>https://hugo-profile.netlify.app/tags/hiring-algorithms/</link>
 		<description>Recent content in Hiring Algorithms on Ashana Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/hiring-algorithms/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://hugo-profile.netlify.app/tags/hiring-algorithms/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool </title>
-				<link>http://localhost:1313/blogs/ai-bias/</link>
+				<link>https://hugo-profile.netlify.app/blogs/ai-bias/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/blogs/ai-bias/</guid>
+				<guid>https://hugo-profile.netlify.app/blogs/ai-bias/</guid>
 				<description>&lt;p&gt;Artificial intelligence is becoming a standard tool in hiring. Companies use it to screen resumes, rank candidates, and process thousands of applications faster than any human recruiter could. On the surface, this seems like progress. AI promises efficiency. It promises objectivity. But there’s a critical flaw: AI systems learn from the data they’re trained on. And if that data reflects past discrimination or inequality, the AI will reproduce those patterns. Often at scale. Often invisibly.&lt;/p&gt;</description>
 			</item>
 	</channel>

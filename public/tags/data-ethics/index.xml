@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Data Ethics on Ashana Profile</title>
-		<link>https://hugo-profile.netlify.app/tags/data-ethics/</link>
+		<link>https://github.com/Ashana-Smith/Ashana-Smith/tags/data-ethics/</link>
 		<description>Recent content in Data Ethics on Ashana Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://hugo-profile.netlify.app/tags/data-ethics/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://github.com/Ashana-Smith/Ashana-Smith/tags/data-ethics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>When Anonymous Isn’t Anonymous: Ethical Challenges in Data Collection</title>
-				<link>https://hugo-profile.netlify.app/blogs/survey/</link>
+				<link>https://github.com/Ashana-Smith/Ashana-Smith/blogs/survey/</link>
 				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://hugo-profile.netlify.app/blogs/survey/</guid>
+				<guid>https://github.com/Ashana-Smith/Ashana-Smith/blogs/survey/</guid>
 				<description>&lt;p&gt;We’ve all clicked “submit” on a survey after being told our answers are anonymous. It feels safe. It feels honest. But what happens when that promise isn’t actually true?&lt;/p&gt;&#xA;&lt;p&gt;This is exactly the situation I want to break down today. A course completion survey looks simple on the surface: ten questions, a rating scale, a request for honest feedback. But the way it’s built tells a different story than the one it claims. Understanding why matters, not just for data analysts, but for anyone who has ever filled out a survey and trusted the label “anonymous.”&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Ashana Profile</title>
-		<link>https://hugo-profile.netlify.app/fr/</link>
+		<link>https://github.com/Ashana-Smith/Ashana-Smith/fr/</link>
 		<description>Recent content on Ashana Profile</description>
 		<generator>Hugo</generator>
 		<language>fr</language>
@@ -10,6 +10,6 @@
 		
 		
 		
-			<atom:link href="https://hugo-profile.netlify.app/fr/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://github.com/Ashana-Smith/Ashana-Smith/fr/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>

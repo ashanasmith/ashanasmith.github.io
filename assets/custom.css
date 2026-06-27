@@ -1,0 +1,71 @@
+body,
+.light > * {
+  background-color: #F8F4EE !important;
+  color: #4A403A !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.nav-link {
+  color: #9C6644 !important;
+}
+
+a {
+  color: #A67C52 !important;
+}
+
+.btn,
+.badge {
+  background-color: #B08968 !important;
+  border-color: #B08968 !important;
+  color: white !important;
+}
+
+.card,
+.list-group-item {
+  background-color: #EFE7DD !important;
+}
+
+h1 {
+    color: red  !important;
+}
+
+#hero h1,
+#hero .hero-title,
+.home h1 {
+    color: #B08968 !important;
+}
+
+h1 {
+    color: #B08968 !important;
+}
+
+#hero h1 {
+    color: #B08968 !important;
+}
+
+#hero h1,
+#hero h1 span,
+#primary-font h1 {
+    color: #B08968 !important;
+}
+
+:root {
+    --primary-color: #B08968 !important;
+}
+
+#hero {
+    --primary-color: #B08968 !important;
+}
+
+:root {
+    --primary-color: #B08968 !important;
+}
+
+:root {
+    --primary-color: #9C6644 !important;
+}
+
+#hero h1 {
+    color: #9C6644 !important;
+}

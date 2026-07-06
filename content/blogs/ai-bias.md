@@ -11,97 +11,64 @@ tags:
   - Amazon Case Study
   - Algorithimic Bias
 image: /images/resume.png
-description: "Amazon’s biased hiring algorithm: Why AI reproduces discrimination and how to fix it."
+description: "A look at how Amazon's AI hiring tool absorbed human bias and what it teaches us about fair automation."
 toc: 
 ---
 
-Artificial intelligence is becoming a standard tool in hiring. Companies use it to screen resumes, rank candidates, and process thousands of applications faster than any human recruiter could. On the surface, this seems like progress. AI promises efficiency. It promises objectivity. But there’s a critical flaw: AI systems learn from the data they’re trained on. And if that data reflects past discrimination or inequality, the AI will reproduce those patterns. Often at scale. Often invisibly. 
+# When AI Learns to Discriminate: A Framework for Getting It Right
 
-# The Case at Hand
- 
-Here’s the situation. At the end of a course, participants are asked to complete a short survey, ten questions in total, accessed through a URL that’s only available for a limited time. To get started, students have to log in using their organization username and password. 
+Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.
 
-Once inside, the survey asks for the name of the course, but never asks for the student’s name. The description tells participants that all answers, and the survey itself, will remain anonymous. 
+This wasn't a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon's failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.
 
-Executive management wants to use the survey results to decide which courses need to be redesigned or updated. As the data analyst in this scenario, I’m the one tasked with turning that data into actionable insights and identifying any issues with how it was collected along the way.
+## What Makes an AI System Ethical?
 
-On the surface, this looks like a normal feedback loop. But once you look closer at how the data is actually collected, some serious ethical problems start to surface. 
+Before picking apart what Amazon got wrong, it helps to understand what "getting it right" actually looks like. Philosopher Luciano Floridi and a team of researchers developed a five-principle framework for ethical AI, adapted from concepts in medical ethics:
 
-# Ethical Issues in the Survey Design
+- **Beneficence**: AI should be designed to benefit people, not just the organizations that build it.
+- **Non-maleficence**: AI should avoid causing harm, including harms that aren't obvious at first glance, like reinforcing existing inequalities.
+- **Autonomy**: AI should support human decision-making, not quietly replace or override it.
+- **Justice**: AI should treat people fairly and not discriminate based on protected characteristics like gender or race.
+- **Explicability**: AI should be transparent enough that people can understand how it reaches its decisions, and who is accountable when it doesn't.
 
-The biggest issue here is hiding in plain sight: the survey claims to be anonymous, but it isn’t. 
+Floridi added explicability as a fifth principle specifically because AI raises a problem that traditional ethics didn't have to deal with: systems that make consequential decisions without a clear, traceable explanation for how they got there.
 
-To even access the survey, students must log in with their username and password. That single requirement means the organization already knows exactly who is taking the survey, the moment they log in. Not asking for a name inside the survey itself doesn’t erase that. The identity is already attached before the first question even loads. 
+On paper, these five principles sound like common sense. That is exactly the point. Ethical frameworks are not meant to introduce complicated new rules. They are meant to formalize the questions a responsible team should already be asking, so those questions do not get skipped when a project is moving fast. In practice, Amazon's hiring tool violated nearly all of them at once.
 
-This is where the concept of **anonymization** versus **pseudonymization** becomes important. True anonymization means data cannot be traced back to an individual, even if someone tried. Pseudonymization means identifying details are replaced with a code or token, but the link back to the real person still exists somewhere. In this case, there isn’t even a layer of pseudonymization protecting the student. The login system ties their real identity directly to the survey session, with no separation at all. 
+## How Amazon's Tool Broke Every Principle
 
-Calling this “anonymous” isn’t just inaccurate; it’s misleading. And that points to a deeper issue: **transparency**. Participants are told one thing about how their data will be handled, while the system behind the scenes works completely differently. Without transparency, students can’t give true **informed consent** either. Informed consent depends on people understanding what’s actually happening with their data. If the description of the survey is false, the consent built on top of it is compromised from the start. 
+Amazon built its hiring algorithm by training it on ten years of submitted resumes. The problem was that most of those resumes came from men, a reflection of the tech industry's existing gender imbalance. The system learned from that pattern and concluded that male candidates were preferable. It began penalizing resumes that included the word "women's," as in "women's chess club captain," and downgraded graduates of two all-women's colleges.
 
-# Other Ethical Issues Worth Considering
+When you check the tool against each of these principles, the pattern becomes obvious:
 
-Beyond the anonymity problem, two other issues stand out once you look at the bigger picture. 
+- **Justice, violated.** The system discriminated based on gender, exactly the kind of unfair treatment the justice principle is meant to prevent.
+- **Non-maleficence, violated.** Rather than avoiding harm, the tool actively reinforced a bias that already existed in the industry, at scale and without human oversight catching it early.
+- **Explicability, violated.** Amazon's own engineers reportedly could not fully explain why the model downgraded certain resumes. When a system can't explain its own reasoning, no one can be held accountable for its outcomes.
+- **Autonomy, at risk.** The tool was meant to assist recruiters, not replace their judgment. But an AI-generated ranking carries an authority that can quietly override human discretion, especially when reviewers are moving fast through hundreds of applications.
+- **Beneficence, undermined.** The tool was supposed to benefit Amazon by streamlining hiring. Instead, it created legal and reputational risk and had to be scrapped entirely.
 
-#### 1. Limited access window
+Amazon did try to fix the problem by editing the program to ignore specific terms like "women's." But this only patched the symptom. There was no guarantee the system wouldn't find other, less obvious proxies for gender, like certain schools, hobbies, or phrasing patterns common in male-dominated fields. By early 2017, Amazon abandoned the project entirely, and the story became public the following year through a Reuters investigation.
 
-The survey link is only available for a short period of time. On the surface, this might seem like a minor scheduling detail, but it raises a fairness concern. Students who are sick that week, dealing with unreliable internet, navigating a disability that requires more time, or simply juggling other responsibilities (a familiar challenge for many online and remote learners) could be locked out before they even get the chance to respond. 
+## Why Ethical Frameworks Matter Going Forward
 
-When a portion of the population is effectively excluded, the resulting data isn’t a fair representation of everyone’s experience. It only reflects the people who happened to be available, online, and quick enough to act within the window. Any insights drawn from that data carry a built-in bias before analysis even begins. 
+Amazon's story shows what happens when ethics gets treated as a bug fix instead of a blueprint. The company noticed the bias only after the tool had already caused harm, and even then, patching individual keywords couldn't guarantee the deeper pattern was gone.
 
-#### 2. Power imbalance and honesty
+The framework exists to flip that order. Instead of asking "how do we fix this AI system after it fails," it asks "how do we build this system so it doesn't fail in the first place." That shift matters because AI systems don't just reflect the data they're trained on. They amplify it, applying patterns at a scale no individual human reviewer ever could.
 
-The second issue is more subtle, but arguably more damaging to the survey’s purpose. Students need this course for something, whether it’s certification, credit, or job-related training. When they know their real identity is tied to their responses, a natural hesitation creeps in. Will being too critical reflect poorly on them? Could honest feedback affect how they’re seen by the organization? 
+A framework built into the design process from day one would have raised red flags long before Amazon's tool ever touched a real resume:
 
-This is a textbook example of a **power imbalance**. The organization holds influence over the student’s outcomes, and the student is aware their feedback isn’t truly private. In situations like this, people tend to soften their answers, avoid pointed criticism, or rate things more positively than they actually feel, simply to protect themselves. The result is data that looks clean on the surface but is quietly skewed underneath. 
+- Did the training data represent a fair, balanced pool of candidates?
+- Could the model explain its own decisions clearly enough for a human to catch bias early?
+- Was there a way to test outcomes across gender before deployment, not after?
 
-And this isn’t just an ethical concern; it undermines the entire purpose of the survey. If executive management makes decisions about which courses to redesign based on self-censored feedback, they’re not really making data-driven decisions. They’re making decisions based on a distorted picture of the truth. 
+None of these questions require advanced technology to ask. They require the discipline to ask them before something goes wrong, not after.
 
-# What Should Be Done About It
+This is also why frameworks work best when they are not left to individual companies alone. A single team under pressure to ship a product will not always catch what an outside reviewer, a regulator, or an independent audit might catch. Ethical frameworks give organizations a shared standard to build toward. But that standard only means something if someone is actually checking whether it was followed.
 
-Once these issues are identified, the next step is figuring out how to actually fix them. Here are three concrete recommendations a data analyst can make in this scenario.
+## A Lesson in What Not to Skip
 
-#### 1. Be honest about what "anonymous" really means
+Amazon's hiring tool wasn't built by careless engineers. It was built by one of the most technically capable companies in the world, and it still failed on nearly every ethical principle that matters in AI: justice, non-maleficence, explicability, autonomy, and beneficence.
 
-As the data analyst, my first recommendation would be to stop claiming the survey is anonymous when it isn’t. Since the survey can’t be truly anonymous due to the login requirement, I’d recommend the description clearly state that login is required, that responses will be linked to the account used to log in, and exactly who will have access to individual responses (for example, only a designated administrator, not instructors or general staff). 
+That's the real lesson here. Good intentions and strong engineering aren't enough on their own. Without a clear ethical framework guiding a system from the very start, even well-resourced teams can build tools that quietly cause harm before anyone notices.
 
-An even stronger fix I’d propose is decoupling the login from the survey itself. Login could simply verify that someone completed the course, then redirect them to a separate survey tool that doesn’t tag their responses to their account at all. This would allow the organization to achieve genuine anonymity, rather than just claiming it. 
-
-#### 2. Remove the time pressure
-
-My second recommendation is to extend the survey’s access window. Rather than a short window, the survey should be available for one to two weeks immediately after course completion. This gives students time to respond when they actually have reliable access, regardless of time zone, schedule, or temporary setbacks. I’d also suggest a simple reminder email partway through the window to help boost response rates without forcing anyone into a rushed decision. 
-
-#### 3. Remove the fear factor from feedback
-
-My third recommendation addresses the power imbalance directly. I’d advise the organization to explicitly state that responses have no impact on grades, certification, or standing, regardless of how critical the feedback is. But a statement alone may not be enough to fully ease that fear, especially when identity is still attached to responses behind the scenes. 
-
-That’s why my stronger recommendation is structural: limit access to individual, identifiable responses entirely, and only share aggregated, de-identified results with executive management. For example, instead of seeing “Student X disagreed that the course met objectives,” management would see “73% of students agreed the course met its objectives.” This protects individual students while still giving the organization the insights it needs to make decisions. 
-
-# What If Management Says No?
-
-Recommendations don’t always get accepted right away, even when they’re well-reasoned. So what happens if executive management pushes back and insists the survey is fine exactly as it is? 
-
-This is where the role of a data analyst gets tested. Disagreeing with leadership doesn’t mean the only options are silent compliance or walking away. There are several ethical paths to take before reaching that point. 
-
-#### 1. Document the concerns formally
-
-Even if management dismisses the feedback verbally, putting concerns in writing (through email, a memo, or a formal report) creates a clear record. This protects the analyst by showing the concern was raised properly, and it lays the groundwork for further escalation if needed. 
-
-#### 2. Escalate to compliance, privacy, or legal teams
-
-Most organizations have a department responsible for data protection and ethical oversight, separate from the team requesting the analysis. If a direct manager won’t act, escalating the concern to people with more authority over privacy and compliance can carry more weight, especially if there’s potential legal exposure tied to misleading claims about anonymity. 
-
-#### 3. Be transparent within the deliverable itself
-
-If the analysis still has to move forward using flawed data, the analyst doesn’t have to pretend the data is perfectly clean. The final report can include clear caveats, noting that responses may be biased due to limited anonymity, flagging specific findings as lower confidence, and recommending that future surveys be redesigned with stronger privacy protections. 
-
-#### 4. Refuse to misrepresent the data, as a last resort
-
-What an analyst should never do is present flawed data as fully reliable just to deliver the clean answer management wants. Doing the work honestly, while being clear about its limitations, preserves both the analyst’s integrity and the usefulness of the insights being delivered. 
-
----
-# The Takeaway
-
-This survey looks harmless on the surface. Ten questions, a rating scale, a quick login. But once you look past the label “anonymous” and examine how the system actually works, several ethical issues come into focus: a misleading privacy claim, a lack of transparency, an exclusionary access window, and a power imbalance that quietly distorts honesty. 
-
-None of these issues require bad intentions to exist. They can show up simply because no one stopped to ask whether the system matched the promise being made to participants. That’s exactly why ethical awareness matters in data work. It’s not just about following rules, it’s about noticing the gap between what a system claims and what it actually does, and being willing to close that gap, even when it’s inconvenient or unpopular with leadership. 
-
-Good data isn’t just accurate, it’s trustworthy. And trust starts with telling people the truth about what’s really happening with their information. 
+As AI takes on a bigger role in decisions that shape people's lives, from hiring to lending to healthcare, the question isn't whether these systems will make mistakes. It's whether the people building them asked the right questions early enough to catch those mistakes before real people paid the price.

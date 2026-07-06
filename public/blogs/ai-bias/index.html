@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta charset="UTF-8">
+<head><script src="/Ashana-Smith/Ashana-Smith/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Ashana-Smith/Ashana-Smith/livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,10 +28,10 @@
 
 
 
-<meta property="og:url" content="https://github.com/Ashana-Smith/Ashana-Smith/blogs/ai-bias/">
+<meta property="og:url" content="http://localhost:1313/Ashana-Smith/Ashana-Smith/blogs/ai-bias/">
 	<meta property="og:site_name" content="Ashana Profile">
 	<meta property="og:title" content="When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool ">
-	<meta property="og:description" content="Amazon’s biased hiring algorithm: Why AI reproduces discrimination and how to fix it.">
+	<meta property="og:description" content="A look at how Amazon&#39;s AI hiring tool absorbed human bias and what it teaches us about fair automation.">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="blogs">
@@ -46,13 +46,13 @@
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool ">
-	<meta name="twitter:description" content="Amazon’s biased hiring algorithm: Why AI reproduces discrimination and how to fix it.">
+	<meta name="twitter:description" content="A look at how Amazon&#39;s AI hiring tool absorbed human bias and what it teaches us about fair automation.">
 
 
 
 
   
-    <link rel="alternate" hreflang="en" href="https://github.com/Ashana-Smith/Ashana-Smith/blogs/ai-bias/" title="English">
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/Ashana-Smith/Ashana-Smith/blogs/ai-bias/" title="English">
   
   
   <meta property="og:locale" content="en">
@@ -121,7 +121,7 @@
 
 
 
-<meta name="description" content="Amazon’s biased hiring algorithm: Why AI reproduces discrimination and how to fix it.">
+<meta name="description" content="A look at how Amazon&#39;s AI hiring tool absorbed human bias and what it teaches us about fair automation.">
 <link rel="stylesheet" href="/Ashana-Smith/Ashana-Smith/css/single.css">
 
 
@@ -386,52 +386,46 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
           </div>
           
           <article class="page-content  p-2">
-          <p>Artificial intelligence is becoming a standard tool in hiring. Companies use it to screen resumes, rank candidates, and process thousands of applications faster than any human recruiter could. On the surface, this seems like progress. AI promises efficiency. It promises objectivity. But there’s a critical flaw: AI systems learn from the data they’re trained on. And if that data reflects past discrimination or inequality, the AI will reproduce those patterns. Often at scale. Often invisibly.</p>
-<h1 id="the-case-at-hand">The Case at Hand</h1>
-<p>Here’s the situation. At the end of a course, participants are asked to complete a short survey, ten questions in total, accessed through a URL that’s only available for a limited time. To get started, students have to log in using their organization username and password.</p>
-<p>Once inside, the survey asks for the name of the course, but never asks for the student’s name. The description tells participants that all answers, and the survey itself, will remain anonymous.</p>
-<p>Executive management wants to use the survey results to decide which courses need to be redesigned or updated. As the data analyst in this scenario, I’m the one tasked with turning that data into actionable insights and identifying any issues with how it was collected along the way.</p>
-<p>On the surface, this looks like a normal feedback loop. But once you look closer at how the data is actually collected, some serious ethical problems start to surface.</p>
-<h1 id="ethical-issues-in-the-survey-design">Ethical Issues in the Survey Design</h1>
-<p>The biggest issue here is hiding in plain sight: the survey claims to be anonymous, but it isn’t.</p>
-<p>To even access the survey, students must log in with their username and password. That single requirement means the organization already knows exactly who is taking the survey, the moment they log in. Not asking for a name inside the survey itself doesn’t erase that. The identity is already attached before the first question even loads.</p>
-<p>This is where the concept of <strong>anonymization</strong> versus <strong>pseudonymization</strong> becomes important. True anonymization means data cannot be traced back to an individual, even if someone tried. Pseudonymization means identifying details are replaced with a code or token, but the link back to the real person still exists somewhere. In this case, there isn’t even a layer of pseudonymization protecting the student. The login system ties their real identity directly to the survey session, with no separation at all.</p>
-<p>Calling this “anonymous” isn’t just inaccurate; it’s misleading. And that points to a deeper issue: <strong>transparency</strong>. Participants are told one thing about how their data will be handled, while the system behind the scenes works completely differently. Without transparency, students can’t give true <strong>informed consent</strong> either. Informed consent depends on people understanding what’s actually happening with their data. If the description of the survey is false, the consent built on top of it is compromised from the start.</p>
-<h1 id="other-ethical-issues-worth-considering">Other Ethical Issues Worth Considering</h1>
-<p>Beyond the anonymity problem, two other issues stand out once you look at the bigger picture.</p>
-<h4 id="1-limited-access-window">1. Limited access window</h4>
-<p>The survey link is only available for a short period of time. On the surface, this might seem like a minor scheduling detail, but it raises a fairness concern. Students who are sick that week, dealing with unreliable internet, navigating a disability that requires more time, or simply juggling other responsibilities (a familiar challenge for many online and remote learners) could be locked out before they even get the chance to respond.</p>
-<p>When a portion of the population is effectively excluded, the resulting data isn’t a fair representation of everyone’s experience. It only reflects the people who happened to be available, online, and quick enough to act within the window. Any insights drawn from that data carry a built-in bias before analysis even begins.</p>
-<h4 id="2-power-imbalance-and-honesty">2. Power imbalance and honesty</h4>
-<p>The second issue is more subtle, but arguably more damaging to the survey’s purpose. Students need this course for something, whether it’s certification, credit, or job-related training. When they know their real identity is tied to their responses, a natural hesitation creeps in. Will being too critical reflect poorly on them? Could honest feedback affect how they’re seen by the organization?</p>
-<p>This is a textbook example of a <strong>power imbalance</strong>. The organization holds influence over the student’s outcomes, and the student is aware their feedback isn’t truly private. In situations like this, people tend to soften their answers, avoid pointed criticism, or rate things more positively than they actually feel, simply to protect themselves. The result is data that looks clean on the surface but is quietly skewed underneath.</p>
-<p>And this isn’t just an ethical concern; it undermines the entire purpose of the survey. If executive management makes decisions about which courses to redesign based on self-censored feedback, they’re not really making data-driven decisions. They’re making decisions based on a distorted picture of the truth.</p>
-<h1 id="what-should-be-done-about-it">What Should Be Done About It</h1>
-<p>Once these issues are identified, the next step is figuring out how to actually fix them. Here are three concrete recommendations a data analyst can make in this scenario.</p>
-<h4 id="1-be-honest-about-what-anonymous-really-means">1. Be honest about what &ldquo;anonymous&rdquo; really means</h4>
-<p>As the data analyst, my first recommendation would be to stop claiming the survey is anonymous when it isn’t. Since the survey can’t be truly anonymous due to the login requirement, I’d recommend the description clearly state that login is required, that responses will be linked to the account used to log in, and exactly who will have access to individual responses (for example, only a designated administrator, not instructors or general staff).</p>
-<p>An even stronger fix I’d propose is decoupling the login from the survey itself. Login could simply verify that someone completed the course, then redirect them to a separate survey tool that doesn’t tag their responses to their account at all. This would allow the organization to achieve genuine anonymity, rather than just claiming it.</p>
-<h4 id="2-remove-the-time-pressure">2. Remove the time pressure</h4>
-<p>My second recommendation is to extend the survey’s access window. Rather than a short window, the survey should be available for one to two weeks immediately after course completion. This gives students time to respond when they actually have reliable access, regardless of time zone, schedule, or temporary setbacks. I’d also suggest a simple reminder email partway through the window to help boost response rates without forcing anyone into a rushed decision.</p>
-<h4 id="3-remove-the-fear-factor-from-feedback">3. Remove the fear factor from feedback</h4>
-<p>My third recommendation addresses the power imbalance directly. I’d advise the organization to explicitly state that responses have no impact on grades, certification, or standing, regardless of how critical the feedback is. But a statement alone may not be enough to fully ease that fear, especially when identity is still attached to responses behind the scenes.</p>
-<p>That’s why my stronger recommendation is structural: limit access to individual, identifiable responses entirely, and only share aggregated, de-identified results with executive management. For example, instead of seeing “Student X disagreed that the course met objectives,” management would see “73% of students agreed the course met its objectives.” This protects individual students while still giving the organization the insights it needs to make decisions.</p>
-<h1 id="what-if-management-says-no">What If Management Says No?</h1>
-<p>Recommendations don’t always get accepted right away, even when they’re well-reasoned. So what happens if executive management pushes back and insists the survey is fine exactly as it is?</p>
-<p>This is where the role of a data analyst gets tested. Disagreeing with leadership doesn’t mean the only options are silent compliance or walking away. There are several ethical paths to take before reaching that point.</p>
-<h4 id="1-document-the-concerns-formally">1. Document the concerns formally</h4>
-<p>Even if management dismisses the feedback verbally, putting concerns in writing (through email, a memo, or a formal report) creates a clear record. This protects the analyst by showing the concern was raised properly, and it lays the groundwork for further escalation if needed.</p>
-<h4 id="2-escalate-to-compliance-privacy-or-legal-teams">2. Escalate to compliance, privacy, or legal teams</h4>
-<p>Most organizations have a department responsible for data protection and ethical oversight, separate from the team requesting the analysis. If a direct manager won’t act, escalating the concern to people with more authority over privacy and compliance can carry more weight, especially if there’s potential legal exposure tied to misleading claims about anonymity.</p>
-<h4 id="3-be-transparent-within-the-deliverable-itself">3. Be transparent within the deliverable itself</h4>
-<p>If the analysis still has to move forward using flawed data, the analyst doesn’t have to pretend the data is perfectly clean. The final report can include clear caveats, noting that responses may be biased due to limited anonymity, flagging specific findings as lower confidence, and recommending that future surveys be redesigned with stronger privacy protections.</p>
-<h4 id="4-refuse-to-misrepresent-the-data-as-a-last-resort">4. Refuse to misrepresent the data, as a last resort</h4>
-<p>What an analyst should never do is present flawed data as fully reliable just to deliver the clean answer management wants. Doing the work honestly, while being clear about its limitations, preserves both the analyst’s integrity and the usefulness of the insights being delivered.</p>
-<hr>
-<h1 id="the-takeaway">The Takeaway</h1>
-<p>This survey looks harmless on the surface. Ten questions, a rating scale, a quick login. But once you look past the label “anonymous” and examine how the system actually works, several ethical issues come into focus: a misleading privacy claim, a lack of transparency, an exclusionary access window, and a power imbalance that quietly distorts honesty.</p>
-<p>None of these issues require bad intentions to exist. They can show up simply because no one stopped to ask whether the system matched the promise being made to participants. That’s exactly why ethical awareness matters in data work. It’s not just about following rules, it’s about noticing the gap between what a system claims and what it actually does, and being willing to close that gap, even when it’s inconvenient or unpopular with leadership.</p>
-<p>Good data isn’t just accurate, it’s trustworthy. And trust starts with telling people the truth about what’s really happening with their information.</p>
+          <h1 id="when-ai-learns-to-discriminate-a-framework-for-getting-it-right">When AI Learns to Discriminate: A Framework for Getting It Right</h1>
+<p>Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.</p>
+<p>This wasn&rsquo;t a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon&rsquo;s failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.</p>
+<h2 id="what-makes-an-ai-system-ethical">What Makes an AI System Ethical?</h2>
+<p>Before picking apart what Amazon got wrong, it helps to understand what &ldquo;getting it right&rdquo; actually looks like. Philosopher Luciano Floridi and a team of researchers developed a five-principle framework for ethical AI, adapted from concepts in medical ethics:</p>
+<ul>
+<li><strong>Beneficence</strong>: AI should be designed to benefit people, not just the organizations that build it.</li>
+<li><strong>Non-maleficence</strong>: AI should avoid causing harm, including harms that aren&rsquo;t obvious at first glance, like reinforcing existing inequalities.</li>
+<li><strong>Autonomy</strong>: AI should support human decision-making, not quietly replace or override it.</li>
+<li><strong>Justice</strong>: AI should treat people fairly and not discriminate based on protected characteristics like gender or race.</li>
+<li><strong>Explicability</strong>: AI should be transparent enough that people can understand how it reaches its decisions, and who is accountable when it doesn&rsquo;t.</li>
+</ul>
+<p>Floridi added explicability as a fifth principle specifically because AI raises a problem that traditional ethics didn&rsquo;t have to deal with: systems that make consequential decisions without a clear, traceable explanation for how they got there.</p>
+<p>On paper, these five principles sound like common sense. That is exactly the point. Ethical frameworks are not meant to introduce complicated new rules. They are meant to formalize the questions a responsible team should already be asking, so those questions do not get skipped when a project is moving fast. In practice, Amazon&rsquo;s hiring tool violated nearly all of them at once.</p>
+<h2 id="how-amazons-tool-broke-every-principle">How Amazon&rsquo;s Tool Broke Every Principle</h2>
+<p>Amazon built its hiring algorithm by training it on ten years of submitted resumes. The problem was that most of those resumes came from men, a reflection of the tech industry&rsquo;s existing gender imbalance. The system learned from that pattern and concluded that male candidates were preferable. It began penalizing resumes that included the word &ldquo;women&rsquo;s,&rdquo; as in &ldquo;women&rsquo;s chess club captain,&rdquo; and downgraded graduates of two all-women&rsquo;s colleges.</p>
+<p>When you check the tool against each of these principles, the pattern becomes obvious:</p>
+<ul>
+<li><strong>Justice, violated.</strong> The system discriminated based on gender, exactly the kind of unfair treatment the justice principle is meant to prevent.</li>
+<li><strong>Non-maleficence, violated.</strong> Rather than avoiding harm, the tool actively reinforced a bias that already existed in the industry, at scale and without human oversight catching it early.</li>
+<li><strong>Explicability, violated.</strong> Amazon&rsquo;s own engineers reportedly could not fully explain why the model downgraded certain resumes. When a system can&rsquo;t explain its own reasoning, no one can be held accountable for its outcomes.</li>
+<li><strong>Autonomy, at risk.</strong> The tool was meant to assist recruiters, not replace their judgment. But an AI-generated ranking carries an authority that can quietly override human discretion, especially when reviewers are moving fast through hundreds of applications.</li>
+<li><strong>Beneficence, undermined.</strong> The tool was supposed to benefit Amazon by streamlining hiring. Instead, it created legal and reputational risk and had to be scrapped entirely.</li>
+</ul>
+<p>Amazon did try to fix the problem by editing the program to ignore specific terms like &ldquo;women&rsquo;s.&rdquo; But this only patched the symptom. There was no guarantee the system wouldn&rsquo;t find other, less obvious proxies for gender, like certain schools, hobbies, or phrasing patterns common in male-dominated fields. By early 2017, Amazon abandoned the project entirely, and the story became public the following year through a Reuters investigation.</p>
+<h2 id="why-ethical-frameworks-matter-going-forward">Why Ethical Frameworks Matter Going Forward</h2>
+<p>Amazon&rsquo;s story shows what happens when ethics gets treated as a bug fix instead of a blueprint. The company noticed the bias only after the tool had already caused harm, and even then, patching individual keywords couldn&rsquo;t guarantee the deeper pattern was gone.</p>
+<p>The framework exists to flip that order. Instead of asking &ldquo;how do we fix this AI system after it fails,&rdquo; it asks &ldquo;how do we build this system so it doesn&rsquo;t fail in the first place.&rdquo; That shift matters because AI systems don&rsquo;t just reflect the data they&rsquo;re trained on. They amplify it, applying patterns at a scale no individual human reviewer ever could.</p>
+<p>A framework built into the design process from day one would have raised red flags long before Amazon&rsquo;s tool ever touched a real resume:</p>
+<ul>
+<li>Did the training data represent a fair, balanced pool of candidates?</li>
+<li>Could the model explain its own decisions clearly enough for a human to catch bias early?</li>
+<li>Was there a way to test outcomes across gender before deployment, not after?</li>
+</ul>
+<p>None of these questions require advanced technology to ask. They require the discipline to ask them before something goes wrong, not after.</p>
+<p>This is also why frameworks work best when they are not left to individual companies alone. A single team under pressure to ship a product will not always catch what an outside reviewer, a regulator, or an independent audit might catch. Ethical frameworks give organizations a shared standard to build toward. But that standard only means something if someone is actually checking whether it was followed.</p>
+<h2 id="a-lesson-in-what-not-to-skip">A Lesson in What Not to Skip</h2>
+<p>Amazon&rsquo;s hiring tool wasn&rsquo;t built by careless engineers. It was built by one of the most technically capable companies in the world, and it still failed on nearly every ethical principle that matters in AI: justice, non-maleficence, explicability, autonomy, and beneficence.</p>
+<p>That&rsquo;s the real lesson here. Good intentions and strong engineering aren&rsquo;t enough on their own. Without a clear ethical framework guiding a system from the very start, even well-resourced teams can build tools that quietly cause harm before anyone notices.</p>
+<p>As AI takes on a bigger role in decisions that shape people&rsquo;s lives, from hiring to lending to healthcare, the question isn&rsquo;t whether these systems will make mistakes. It&rsquo;s whether the people building them asked the right questions early enough to catch those mistakes before real people paid the price.</p>
 
           </article>
         </div>
@@ -446,27 +440,10 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li></li>
-      </ul>
-    </li>
+    <li><a href="#what-makes-an-ai-system-ethical">What Makes an AI System Ethical?</a></li>
+    <li><a href="#how-amazons-tool-broke-every-principle">How Amazon&rsquo;s Tool Broke Every Principle</a></li>
+    <li><a href="#why-ethical-frameworks-matter-going-forward">Why Ethical Frameworks Matter Going Forward</a></li>
+    <li><a href="#a-lesson-in-what-not-to-skip">A Lesson in What Not to Skip</a></li>
   </ul>
 </nav>
               </div>
@@ -513,22 +490,22 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text=Amazon%e2%80%99s%20biased%20hiring%20algorithm%3a%20Why%20AI%20reproduces%20discrimination%20and%20how%20to%20fix%20it. https%3a%2f%2fgithub.com%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text=A%20look%20at%20how%20Amazon%27s%20AI%20hiring%20tool%20absorbed%20human%20bias%20and%20what%20it%20teaches%20us%20about%20fair%20automation. http%3a%2f%2flocalhost%3a1313%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&url=https%3a%2f%2fgithub.com%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f&hashtags=AI%20Ethics%2cHiring%20Algorithms%2cFairness%20in%20AI%2cAmazon%20Case%20Study%2cAlgorithimic%20Bias'>
+                  <a target="_blank" href='https://twitter.com/share?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&url=http%3a%2f%2flocalhost%3a1313%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f&hashtags=AI%20Ethics%2cHiring%20Algorithms%2cFairness%20in%20AI%2cAmazon%20Case%20Study%2cAlgorithimic%20Bias'>
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20: https%3a%2f%2fgithub.com%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20: http%3a%2f%2flocalhost%3a1313%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&amp;body=Check%20out%20this%20site https%3a%2f%2fgithub.com%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f'>
+                  <a target="_blank" href='mailto:?subject=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fAshana-Smith%2fAshana-Smith%2fblogs%2fai-bias%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -621,7 +598,9 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
                         <h5 class="card-title bg-transparent" title="When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool ">When AI Learns Human …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><p>Artificial intelligence is becoming a standard tool in hiring. Companies use it to screen resumes, rank candidates, and process thousands of applications faster than any human recruiter could. On the surface, this seems like progress. AI promises efficiency. It promises objectivity. But there’s a …</p></p>
+                        <p><h1 id="when-ai-learns-to-discriminate-a-framework-for-getting-it-right">When AI Learns to Discriminate: A Framework for Getting It Right</h1>
+<p>Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.</p>
+<p>This wasn&rsquo;t a glitch. It was the predictable …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
@@ -758,7 +737,7 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="https://github.com/Ashana-Smith/Ashana-Smith/" title="Ashana Profile">
+                    <a href="http://localhost:1313/Ashana-Smith/Ashana-Smith/" title="Ashana Profile">
                         <img alt="Footer logo" src="/fav.png"
                             height="40px" width="40px">
                     </a>

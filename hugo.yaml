@@ -592,19 +592,21 @@ params:
     title: "About Me"
     image: "/images/ashana.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+     I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. These experiences have strengthened my communication, organization, and analytical skills while teaching me the value of making informed, data-driven decisions.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "I’m currently pursuing a Diploma in Data Analytics and Artificial Intelligence, where I’m developing skills in:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "SQL"
+        - "Python"
+        - "Excel"
+        - "Power BI"
+        - "Tableau"
+        - "Data Visualization"
+
+         " I’m passionate about using data and AI to solve real-world problems and continuously expanding my technical knowledge through hands-on projects.
+
+"
 
   # Experience
   experience:
@@ -612,7 +614,7 @@ params:
     # title: "Custom Name"
     items:
       - company: "Facebook"
-        companyUrl: "https://example.com"
+        
         jobs:
           - name: "Senior Software Developer"
             date: "Jan 2023 - present"
@@ -731,7 +733,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner

@@ -583,7 +583,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: /ashana.jpg
           url: "https://example.com"
 
   # About

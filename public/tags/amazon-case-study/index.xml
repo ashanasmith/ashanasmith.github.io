@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Amazon Case Study on Ashana Profile</title>
-		<link>http://localhost:63818/tags/amazon-case-study/</link>
+		<link>http://localhost:57331/tags/amazon-case-study/</link>
 		<description>Recent content in Amazon Case Study on Ashana Profile</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:63818/tags/amazon-case-study/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:57331/tags/amazon-case-study/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool </title>
-				<link>http://localhost:63818/blogs/ai-bias/</link>
+				<link>http://localhost:57331/blogs/ai-bias/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:63818/blogs/ai-bias/</guid>
+				<guid>http://localhost:57331/blogs/ai-bias/</guid>
 				<description>&lt;h1 id=&#34;when-ai-learns-to-discriminate-a-framework-for-getting-it-right&#34;&gt;When AI Learns to Discriminate: A Framework for Getting It Right&lt;/h1&gt;&#xA;&lt;p&gt;Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.&lt;/p&gt;&#xA;&lt;p&gt;This wasn&amp;rsquo;t a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon&amp;rsquo;s failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -1,3 +1,6 @@
+body {
+    background: hotpink !important;
+}
 body,
 .light > * {
   background-color: #FCF8F5 !important;

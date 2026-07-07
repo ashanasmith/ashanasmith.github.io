@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Ashana-Smith/Ashana-Smith/es/</loc>
+    <loc>http://localhost:1313/es/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/es/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/fr/"
+                href="http://localhost:1313/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Ashana-Smith/Ashana-Smith/es/categories/</loc>
+    <loc>http://localhost:1313/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/fr/categories/"
+                href="http://localhost:1313/fr/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/Ashana-Smith/Ashana-Smith/es/tags/</loc>
+    <loc>http://localhost:1313/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/es/tags/"
+                href="http://localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/Ashana-Smith/Ashana-Smith/fr/tags/"
+                href="http://localhost:1313/fr/tags/"
                 />
   </url>
 </urlset>

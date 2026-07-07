@@ -520,15 +520,14 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # When using hex codes for colors, quotations must be used along with the # sign
-   #color:
-    #textColor: "#4A403A"
-    #secondaryTextColor: "#7A6F66"
-    #textLinkColor: "#A67C52"
-    #backgroundColor: "#F8F4EE"
-    #secondaryBackgroundColor: "#EFE7DD"
-    #primaryColor: "#B08968"
-    #secondaryColor: "#DDBEA9"
+    color:
+    textColor: "#F8FAFC"
+    secondaryTextColor: "#BFC8D6"
+    textLinkColor: "#F4B6D8"
+    backgroundColor: "#10141A"
+    secondaryBackgroundColor: "#202938"
+    primaryColor: "#8B728E"
+    secondaryColor: "#B39BC8"
 
   #   darkmode:
   #     textColor: "#e4e6eb"

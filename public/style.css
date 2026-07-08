@@ -1,3 +1,15 @@
-body {
+html,
+body,
+body.light,
+#content,
+header,
+section,
+.container,
+.container-fluid,
+.light > * {
     background: hotpink !important;
+}
+
+* {
+    outline: 1px solid lime !important;
 }

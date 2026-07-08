@@ -16,14 +16,14 @@ section:nth-child(even),
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #F8FAFC !important;
+    color: #C97C93 !important;
 }
 
 /* Body text */
 p,
 span,
 li {
-    color: #BFC8D6 !important;
+    color: #4b4641 !important;
 }
 
 /* Links */
@@ -37,8 +37,8 @@ a:hover {
 
 /* Buttons */
 .btn {
-    background-color: #8B728E !important;
-    border-color: #8B728E !important;
+    background-color: #5e7d68 !important;
+    border-color: #5e7d68 !important;
     color: white !important;
 }
 

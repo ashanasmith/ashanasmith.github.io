@@ -577,24 +577,3 @@ body,
   color: #4A403A !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-.navbar-brand,
-.nav-link {
-  color: #D8C5B1 !important;
-}
-
-a {
-  color: #D8C5B1 !important;
-}
-
-.btn,
-.badge {
-  background-color: #B08968 !important;
-  border-color: #B08968 !important;
-  color: white !important;
-}
-
-.card,
-.list-group-item {
-  background-color: #EFE7DD !important;
-}

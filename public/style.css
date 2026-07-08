@@ -1,15 +1,63 @@
-html,
+/* Backgrounds */
 body,
 body.light,
 #content,
-header,
-section,
-.container,
-.container-fluid,
 .light > * {
-    background: hotpink !important;
+    background-color: #10141A !important;
+    color: #F8FAFC !important;
 }
 
-* {
-    outline: 1px solid lime !important;
+/* Cards & sections */
+section:nth-child(even),
+.card,
+.list-group-item {
+    background-color: #202938 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #F8FAFC !important;
+}
+
+/* Body text */
+p,
+span,
+li {
+    color: #BFC8D6 !important;
+}
+
+/* Links */
+a {
+    color: #F4B6D8 !important;
+}
+
+a:hover {
+    color: #B39BC8 !important;
+}
+
+/* Buttons */
+.btn {
+    background-color: #8B728E !important;
+    border-color: #8B728E !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: #B39BC8 !important;
+    border-color: #B39BC8 !important;
+}
+
+/* Navbar */
+.navbar,
+.navbar-nav,
+.nav-link {
+    background-color: #10141A !important;
+}
+
+.nav-link {
+    color: #F8FAFC !important;
+}
+
+.nav-link:hover {
+    color: #F4B6D8 !important;
 }

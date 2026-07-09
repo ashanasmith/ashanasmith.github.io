@@ -132,3 +132,7 @@ html body .navbar-brand {
 #theme-toggle i {
     background: transparent !important;
 }
+/* About Me paragraph */
+#about p {
+    font-family: "Cormorant Garamond", serif;
+}

@@ -323,14 +323,14 @@
 
 body,
 .light > * {
-  background-color: #FEFBF9 !important;
+  background-color: #F8F4EE !important;
   color: #4A403A !important;
 }
 
 h1, h2, h3, h4, h5, h6,
 .navbar-brand,
 .nav-link {
-  color: #ffff !important;
+  color: #9C6644 !important;
 }
 
 a {
@@ -356,7 +356,7 @@ html body main,
 html body section,
 html body article,
 html body .container {
-  background-color: #FEFBF9 !important;
+  background-color: #F8F4EE !important;
   color: #4A403A !important;
 }
 
@@ -367,9 +367,9 @@ html body h4,
 html body .post-title,
 html body .nav-link,
 html body .navbar-brand {
-  color: #ffff !important;
+  color: #9C6644 !important;
 }
 
 html body a {
-  color: #ffff !important;
+  color: #A67C52 !important;
 }

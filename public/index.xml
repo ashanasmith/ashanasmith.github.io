@@ -18,7 +18,7 @@
 				<link>http://localhost:1313/blogs/ai-bias/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/blogs/ai-bias/</guid>
-				<description>&lt;h1 id=&#34;when-ai-learns-to-discriminate-a-framework-for-getting-it-right&#34;&gt;When AI Learns to Discriminate: A Framework for Getting It Right&lt;/h1&gt;&#xA;&lt;p&gt;Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.&lt;/p&gt;&#xA;&lt;p&gt;This wasn&amp;rsquo;t a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon&amp;rsquo;s failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.&lt;/p&gt;</description>
+				<description>&lt;p&gt;Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.&lt;/p&gt;&#xA;&lt;p&gt;This wasn&amp;rsquo;t a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon&amp;rsquo;s failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>When Anonymous Isn’t Anonymous: Ethical Challenges in Data Collection</title>

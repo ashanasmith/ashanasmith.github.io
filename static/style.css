@@ -153,3 +153,7 @@ html body .navbar-brand {
     max-width: 900px;
     margin: 0 auto;
 }
+/* About Me heading */
+#about h3 {
+    color: #1B1212 !important;
+}

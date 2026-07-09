@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
 /* Backgrounds */
 body,
 body.light,
@@ -132,7 +133,9 @@ html body .navbar-brand {
 #theme-toggle i {
     background: transparent !important;
 }
-/* About Me paragraph */
-#about p {
+/* About Me text */
+#about .content {
     font-family: "Cormorant Garamond", serif;
+    font-size: 1.15rem;
+    line-height: 1.9rem !important;
 }

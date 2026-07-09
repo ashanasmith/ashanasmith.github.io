@@ -119,3 +119,16 @@ html body .navbar-brand {
 #contact p {
     color: #ffff !important;
 }
+.theme-toggle,
+#theme-toggle,
+#themeButton,
+.navbar .btn {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.theme-toggle i,
+#theme-toggle i {
+    background: transparent !important;
+}

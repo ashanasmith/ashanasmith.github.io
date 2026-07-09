@@ -65,3 +65,13 @@ a:hover {
 #hero h1 {
     color: #C97C93  !important;
 }
+
+#hero a.btn {
+    background-color: #B76E79 !important;
+    border: 1px solid #B76E79 !important;
+    color: #ffffff !important;
+
+    border-radius: 12px;
+    padding: 0.85rem 2rem;
+    transition: all 0.25s ease;
+}

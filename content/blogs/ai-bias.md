@@ -15,8 +15,6 @@ description: "A look at how Amazon's AI hiring tool absorbed human bias and what
 toc: 
 ---
 
-# When AI Learns to Discriminate: A Framework for Getting It Right
-
 Amazon spent years building an AI tool to automate hiring. By 2017, the company had quietly shut it down. The reason: the system had taught itself that men made better candidates.
 
 This wasn't a glitch. It was the predictable result of building AI without asking the right ethical questions first. Amazon's failure offers a clear window into why ethical AI frameworks exist, and what happens when a system is built without one.

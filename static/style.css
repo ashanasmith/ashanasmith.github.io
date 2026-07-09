@@ -4,19 +4,19 @@ body.light,
 #content,
 .light > * {
     background-color: #FEFBF9 !important;
-    color: #E33667 !important;
+    color: #EB3F6C !important;
 }
 
 /* Cards & sections */
 section:nth-child(even),
 .card,
 .list-group-item {
-    background-color: #E33667 !important;
+    background-color: #EB3F6C !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #E33667 !important;
+    color: #EB3F6C !important;
 }
 
 /* Body text */
@@ -51,7 +51,7 @@ a:hover {
 .navbar,
 .navbar-nav,
 .nav-link {
-    background-color: #E33667 !important;
+    background-color: #EB3F6C !important;
 }
 
 .nav-link {
@@ -112,7 +112,7 @@ html body .navbar-brand {
 #single .page-content h4,
 #single .page-content h5,
 #single .page-content h6 {
-    color: #E33667 !important; /* Your preferred heading color */
+    color: #EB3F6C !important; /* Your preferred heading color */
 }
 
 /* Contact section text */

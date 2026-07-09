@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 p,
 span,
 li {
-    color: #4b4641 !important;
+    color: #1B1212 !important;
 }
 
 /* Links */
@@ -37,8 +37,8 @@ a:hover {
 
 /* Buttons */
 .btn {
-    background-color: #5e7d68 !important;
-    border-color: #5e7d68 !important;
+    background-color: #ffff !important;
+    border-color: #DBF6C0 !important;
     color: white !important;
 }
 
@@ -69,7 +69,7 @@ a:hover {
 #hero a.btn {
     background-color: #DBF6C0 !important;
     border: 1px solid #DBF6C0 !important;
-    color: #ffffff !important;
+    color: #1B1212 !important;
 
     border-radius: 12px;
     padding: 0.85rem 2rem;

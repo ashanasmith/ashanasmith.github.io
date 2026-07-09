@@ -100,3 +100,7 @@ a:hover {
 .nav-link.active {
     color: #B76E79 !important;
 }
+/* Navbar brand only */
+html body .navbar-brand {
+    color: #ffff !important;   
+}

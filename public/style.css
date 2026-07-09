@@ -4,19 +4,19 @@ body.light,
 #content,
 .light > * {
     background-color: #FEFBF9 !important;
-    color: #A0762B !important;
+    color: #E33667 !important;
 }
 
 /* Cards & sections */
 section:nth-child(even),
 .card,
 .list-group-item {
-    background-color: #A0762B !important;
+    background-color: #E33667 !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #C97C93 !important;
+    color: #E33667 !important;
 }
 
 /* Body text */
@@ -51,7 +51,7 @@ a:hover {
 .navbar,
 .navbar-nav,
 .nav-link {
-    background-color: #A0762B !important;
+    background-color: #E33667 !important;
 }
 
 .nav-link {
@@ -63,12 +63,12 @@ a:hover {
 }
 
 #hero h1 {
-    color: #C97C93  !important;
+    color: #92E336 !important;
 }
 
 #hero a.btn {
-    background-color: #B76E79 !important;
-    border: 1px solid #B76E79 !important;
+    background-color: #DBF6C0 !important;
+    border: 1px solid #DBF6C0 !important;
     color: #ffffff !important;
 
     border-radius: 12px;

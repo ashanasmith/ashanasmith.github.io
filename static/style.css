@@ -154,6 +154,6 @@ html body .navbar-brand {
     margin: 0 auto;
 }
 /* About Me heading */
-#about h3 {
+#about h3.text-center.bg-transparent {
     color: #1B1212 !important;
 }

@@ -3,7 +3,7 @@ body,
 body.light,
 #content,
 .light > * {
-    background-color: #F3ECE5 !important;
+    background-color: #FDFAF6 !important;
     color: #D8C5B1 !important;
 }
 
@@ -60,4 +60,8 @@ a:hover {
 
 .nav-link:hover {
     color: #F4B6D8 !important;
+}
+
+#hero h1 {
+    color: #C97C93  !important;
 }

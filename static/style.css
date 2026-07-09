@@ -134,8 +134,8 @@ html body .navbar-brand {
     background: transparent !important;
 }
 /* About Me text */
-#about .content {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 1.15rem;
-    line-height: 1.9rem !important;
+#about .content,
+#about .content p,
+#about .content li {
+    font-family: "Cormorant Garamond", serif !important;
 }

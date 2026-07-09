@@ -84,7 +84,7 @@ a:hover {
 /* About Me heading */
 #about h3,
 #about h2 {
-    color: #ffff !important;
+    color: #1B1212 !important;
 }
 
 /* Logo / Name in the navbar */
@@ -152,8 +152,4 @@ html body .navbar-brand {
 #about .content {
     max-width: 900px;
     margin: 0 auto;
-}
-/* About Me heading */
-#about h3.text-center.bg-transparent {
-    color: #1B1212 !important;
 }

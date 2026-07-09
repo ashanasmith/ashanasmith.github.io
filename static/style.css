@@ -156,3 +156,8 @@ html body .navbar-brand {
 .hero-bottom-svg svg {
     display: none !important;
 }
+.hero-bottom-svg {
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}

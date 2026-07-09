@@ -153,7 +153,6 @@ html body .navbar-brand {
     max-width: 900px;
     margin: 0 auto;
 }
-/* Hide hero decoration */
-.hero-bottom-svg {
+.hero-bottom-svg svg {
     display: none !important;
 }

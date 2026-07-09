@@ -114,3 +114,8 @@ html body .navbar-brand {
 #single .page-content h6 {
     color: #E33667 !important; /* Your preferred heading color */
 }
+
+/* Contact section text */
+#contact p {
+    color: #ffff !important;
+}

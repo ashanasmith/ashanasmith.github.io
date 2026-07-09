@@ -580,6 +580,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
+        - icon: fab fa-linkedin
+          url: https://example.com
         
   # About
   about:
@@ -749,7 +751,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false 
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -803,7 +805,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ashana.smith@hotmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -821,10 +823,7 @@ params:
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
-
+      
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false

@@ -573,7 +573,12 @@ header .navbar.animate {
 
 body,
 .light > * {
-  background-color: #F8F4EE !important;
+  background-color: #FEFBF9 !important;
   color: #4A403A !important;
 }
 
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.nav-link {
+  color: #C97C93 !important;
+}

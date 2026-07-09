@@ -3,7 +3,7 @@ body,
 body.light,
 #content,
 .light > * {
-    background-color: #FDFAF6 !important;
+    background-color: #FEFBF9 !important;
     color: #D8C5B1 !important;
 }
 
@@ -74,4 +74,14 @@ a:hover {
     border-radius: 12px;
     padding: 0.85rem 2rem;
     transition: all 0.25s ease;
+}
+/* About Me text */
+#about .content {
+    color: #2F2A2A !important;
+}
+
+/* About Me heading */
+#about h3,
+#about h2 {
+    color: #5E4B56 !important;
 }

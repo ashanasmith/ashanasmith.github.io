@@ -104,3 +104,13 @@ a:hover {
 html body .navbar-brand {
     color: #ffff !important;   
 }
+
+/* Blog post headings only */
+#single .page-content h1,
+#single .page-content h2,
+#single .page-content h3,
+#single .page-content h4,
+#single .page-content h5,
+#single .page-content h6 {
+    color: #E33667 !important; /* Your preferred heading color */
+}

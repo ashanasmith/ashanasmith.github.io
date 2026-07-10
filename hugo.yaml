@@ -550,7 +550,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "file:///C:/Users/ashan/Downloads/Ashana%20_Smith%20_Resume.pdf"
+      url: "a.resume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -582,12 +582,11 @@ params:
 
 
   # Experience
-  Proffessional Experience:
+  experience:
     enable: true
     # title: "Custom Name"
     items:
       - company: "Chapman's Ice cream"
-        
         jobs:
           - name: "Production Line Worker"
             date: "Feb 2024 - Jun 2024"
@@ -600,7 +599,6 @@ params:
             - Maintained a clean and organized work environment.
 
       - company: "Alliston Smiles Family Dentistry"
-      
         jobs:
           - name: "Dental Receptionist/Administrator"
             date: "Aug 2022 - Nov 2023"
@@ -614,7 +612,6 @@ params:
                - Performed administrative tasks including filing, emailing, and document management. I worked as a software developer for more than one year in Amazon.
             
       - company: "Dollarama"
-        
         jobs: 
         - name: "Assistant Team Leader / Key Holder"
           date: "May 2022 - Nov 2022"
@@ -632,12 +629,12 @@ params:
         - name: "Assistant Front-End Manager / Cashier"
           date: "May 2018 - May 2022"
           content: 
-            "- Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
+            - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
             - Assisted customers in person and over the phone.
             - Resolved customer concerns and order issues professionally.
             - Processed transactions, refunds, and exchanges accurately.
             - Maintained cash drawer accuracy and balanced registers.
-            - Prepared and fulfilled online grocery orders efficiently."
+            - Prepared and fulfilled online grocery orders efficiently.
 
       
   # Education

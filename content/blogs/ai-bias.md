@@ -70,3 +70,9 @@ Amazon's hiring tool wasn't built by careless engineers. It was built by one of 
 That's the real lesson here. Good intentions and strong engineering aren't enough on their own. Without a clear ethical framework guiding a system from the very start, even well-resourced teams can build tools that quietly cause harm before anyone notices.
 
 As AI takes on a bigger role in decisions that shape people's lives, from hiring to lending to healthcare, the question isn't whether these systems will make mistakes. It's whether the people building them asked the right questions early enough to catch those mistakes before real people paid the price.
+
+# References 
+
+Dastin, J. (2018, October 10). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters. https://www.reuters.com/article/us-amazon-com-jobs-automationinsight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G 
+
+Floridi, L. (2023). The ethics of artificial intelligence: Principles, challenges, and opportunities. Oxford University Press. 

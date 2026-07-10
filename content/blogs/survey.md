@@ -106,3 +106,7 @@ This survey looks harmless on the surface. Ten questions, a rating scale, a quic
 None of these issues require bad intentions to exist. They can show up simply because no one stopped to ask whether the system matched the promise being made to participants. That’s exactly why ethical awareness matters in data work. It’s not just about following rules, it’s about noticing the gap between what a system claims and what it actually does, and being willing to close that gap, even when it’s inconvenient or unpopular with leadership. 
 
 Good data isn’t just accurate, it’s trustworthy. And trust starts with telling people the truth about what’s really happening with their information. 
+
+# References 
+
+Martens, D. (2022). Data Science Ethics: Concepts, Techniques, and Cautionary Tales. Oxford University Press. 

@@ -550,15 +550,15 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "file:///C:/Users/ashan/Downloads/Ashana%20_Smith%20_Resume.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/ashanasmith/Ashana-Smith
         - icon: fab fa-linkedin
-          url: https://example.com
+          url: https://www.linkedin.com/in/ashana-smith  
         
   # About
   about:
@@ -566,7 +566,7 @@ params:
     title: "About Me"
     image: "/images/ashana.jpg"
     content: |-
-     I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. These experiences have strengthened my communication, organization, and analytical skills while teaching me the value of making informed, data-driven decisions.
+     I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. These experiences have strengthened my communication, organization, and analytical skills while teaching me the value of making informed, data-driven decisions. I’m passionate about using data and AI to solve real-world problems and continuously expanding my technical knowledge through hands-on projects.
     skills:
       enable: true
       title: "I’m currently pursuing a Diploma in Data Analytics and Artificial Intelligence, where I’m developing skills in:"
@@ -577,132 +577,97 @@ params:
         - "Power BI"
         - "Tableau"
         - "Data Visualization"
-      summary: |-
-       I’m passionate about using data and AI to solve real-world problems and continuously expanding my technical knowledge through hands-on projects.
+      
+       
 
 
   # Experience
-  experience:
+  Proffessional Experience:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
+      - company: "Chapman's Ice cream"
         
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
-              content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+          - name: "Production Line Worker"
+            date: "Feb 2024 - Jun 2024"
+            content: 
+            - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
+            - Operated production equipment to ensure efficient workflow.
+            - Performed quality inspections to maintain product consistency.
+            - Packaged and prepared products for distribution.
+            - Followed food safety, sanitation, and workplace safety procedures.
+            - Maintained a clean and organized work environment.
 
-      - company: "Amazon"
-        companyUrl: "https://example.com"
+      - company: "Alliston Smiles Family Dentistry"
+      
         jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
+          - name: "Dental Receptionist/Administrator"
+            date: "Aug 2022 - Nov 2023"
             info:
-              content: I worked as a software developer for more than one year in Amazon.
-            content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
+              content: 
+               - Managed daily administrative operations while delivering exceptional patient service and maintaining accurate confidential records.
+               - Coordinated appointments and managed high-volume phone inquiries.
+               - Processed patient and insurance payments accurately.
+               - Maintained confidential patient records and updated documentation.
+               - Followed up on outstanding accounts to support office operations.
+               - Performed administrative tasks including filing, emailing, and document management. I worked as a software developer for more than one year in Amazon.
+            
+      - company: "Dollarama"
+        
         jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        - name: "Assistant Team Leader / Key Holder"
+          date: "May 2022 - Nov 2022"
+          content: 
+            - Supported store operations by supervising staff, coordinating daily activities, and ensuring operational efficiency.
+            - Supervised daily store operations in the absence of management.
+            - Balanced cash registers and maintained financial accountability.
+            - Coached team members to improve productivity and performance.
+            - Organized workflow and delegated tasks effectively.
+            - Prepared daily operational and staffing reports.
+            - Managed inventory and stocked merchandise.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+      - company: "Tim & Heather's No Frills"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        - name: "Assistant Front-End Manager / Cashier"
+          date: "May 2018 - May 2022"
+          content: 
+            - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
+            - Assisted customers in person and over the phone.
+            - Resolved customer concerns and order issues professionally.
+            - Processed transactions, refunds, and exchanges accurately.
+            - Maintained cash drawer accuracy and balanced registers.
+            - Prepared and fulfilled online grocery orders efficiently.
 
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Data Analytics and Artificial Intelligence Diploma"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Eastern College, Moncton, NB"
+          url: "https://www.easterncollege.ca/"
+        date: "Expected Aug 2027"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Relevant Coursework:
+            - Data Visualization
+            - Machine Learning
+            - Predictive Analytics
+            - SQL for Data Analytics
+            - Database Management
+            - Python for Data Analytics
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Centre Dufferin District High School"
+          url: "https://www.ugdsb.ca/o/cddhs"
+        Academic Achievements & Honours: "
+        - Principal's Award Recipient - Recognized for outstanding leadership and positive contributions to the school community
+        - Honour Roll (Grade 9)"
+        
 
   # Achievements
   achievements:
@@ -798,8 +763,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/ashanasmith/Ashana-Smith 
+      linkedin: https://www.linkedin.com/in/ashana-smith 
       
   # List pages like blogs and posts
   listPages:

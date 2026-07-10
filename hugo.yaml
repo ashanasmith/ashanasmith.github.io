@@ -632,12 +632,12 @@ params:
         - name: "Assistant Front-End Manager / Cashier"
           date: "May 2018 - May 2022"
           content: 
-            - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
+            "- Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
             - Assisted customers in person and over the phone.
             - Resolved customer concerns and order issues professionally.
             - Processed transactions, refunds, and exchanges accurately.
             - Maintained cash drawer accuracy and balanced registers.
-            - Prepared and fulfilled online grocery orders efficiently.
+            - Prepared and fulfilled online grocery orders efficiently."
 
       
   # Education

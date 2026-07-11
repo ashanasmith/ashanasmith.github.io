@@ -466,7 +466,7 @@ markup:
 
 params:
   customCSS: true
-  title: "Ashana Profile"
+  title: "Ashana Smith"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/ashana.jpg"
@@ -578,59 +578,58 @@ params:
         - "Tableau"
         - "Data Visualization"
       
-  # Experience
-  experience:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - company: "Chapman's Ice Cream"
-        jobs:
-          - name: "Production Line Worker"
-            date: "Feb 2024 - Jun 2024"
-            content:
-              - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
-              - Operated production equipment to ensure efficient workflow.
-              - Performed quality inspections to maintain product consistency.
-              - Packaged and prepared products for distribution.
-              - Followed food safety, sanitation, and workplace safety procedures.
-              - Maintained a clean and organized work environment.
+ # Experience
+experience:
+  enable: true
+  items:
+    - company: "Chapman's Ice Cream"
+      jobs:
+        - name: "Production Line Worker"
+          date: "Feb 2024 - Jun 2024"
+          content: |
+            - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
+            - Operated production equipment to ensure efficient workflow.
+            - Performed quality inspections to maintain product consistency.
+            - Packaged and prepared products for distribution.
+            - Followed food safety, sanitation, and workplace safety procedures.
+            - Maintained a clean and organized work environment.
 
-      - company: "Alliston Smiles Family Dentistry"
-        jobs:
-          - name: "Dental Receptionist / Administrator"
-            date: "Aug 2022 - Nov 2023"
-            content:
-              - Managed daily administrative operations while delivering exceptional patient service and maintaining accurate confidential records.
-              - Coordinated appointments and managed high-volume phone inquiries.
-              - Processed patient and insurance payments accurately.
-              - Maintained confidential patient records and updated documentation.
-              - Followed up on outstanding accounts to support office operations.
-              - Performed administrative tasks including filing, emailing, and document management.
+    - company: "Alliston Smiles Family Dentistry"
+      jobs:
+        - name: "Dental Receptionist / Administrator"
+          date: "Aug 2022 - Nov 2023"
+          content: |
+            - Managed daily administrative operations while delivering exceptional patient service and maintaining accurate confidential records.
+            - Coordinated appointments and managed high-volume phone inquiries.
+            - Processed patient and insurance payments accurately.
+            - Maintained confidential patient records and updated documentation.
+            - Followed up on outstanding accounts to support office operations.
+            - Performed administrative tasks including filing, emailing, and document management.
 
-      - company: "Dollarama"
-        jobs:
-          - name: "Assistant Team Leader / Key Holder"
-            date: "May 2022 - Nov 2022"
-            content:
-              - Supported store operations by supervising staff, coordinating daily activities, and ensuring operational efficiency.
-              - Supervised daily store operations in the absence of management.
-              - Balanced cash registers and maintained financial accountability.
-              - Coached team members to improve productivity and performance.
-              - Organized workflow and delegated tasks effectively.
-              - Prepared daily operational and staffing reports.
-              - Managed inventory and stocked merchandise.
+    - company: "Dollarama"
+      jobs:
+        - name: "Assistant Team Leader / Key Holder"
+          date: "May 2022 - Nov 2022"
+          content: |
+            - Supported store operations by supervising staff, coordinating daily activities, and ensuring operational efficiency.
+            - Supervised daily store operations in the absence of management.
+            - Balanced cash registers and maintained financial accountability.
+            - Coached team members to improve productivity and performance.
+            - Organized workflow and delegated tasks effectively.
+            - Prepared daily operational and staffing reports.
+            - Managed inventory and stocked merchandise.
 
-      - company: "Tim & Heather's No Frills"
-        jobs:
-          - name: "Assistant Front-End Manager / Cashier"
-            date: "May 2018 - May 2022"
-            content:
-              - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
-              - Assisted customers in person and over the phone.
-              - Resolved customer concerns and order issues professionally.
-              - Processed transactions, refunds, and exchanges accurately.
-              - Maintained cash drawer accuracy and balanced registers.
-              - Prepared and fulfilled online grocery orders efficiently.
+    - company: "Tim & Heather's No Frills"
+      jobs:
+        - name: "Assistant Front-End Manager / Cashier"
+          date: "May 2018 - May 2022"
+          content: |
+            - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
+            - Assisted customers in person and over the phone.
+            - Resolved customer concerns and order issues professionally.
+            - Processed transactions, refunds, and exchanges accurately.
+            - Maintained cash drawer accuracy and balanced registers.
+            - Prepared and fulfilled online grocery orders efficiently.
 
   # Education
   education:

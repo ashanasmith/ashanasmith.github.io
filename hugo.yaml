@@ -581,7 +581,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Custom Name"
+    # title: "Custom Name"
     items:
       - company: "Chapman's Ice Cream"
         jobs:

@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai-ethics/</loc>
+    <loc>//localhost:1313/tags/ai-ethics/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/algorithimic-bias/</loc>
+    <loc>//localhost:1313/tags/algorithimic-bias/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/amazon-case-study/</loc>
+    <loc>//localhost:1313/tags/amazon-case-study/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>//localhost:1313/blogs/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fairness-in-ai/</loc>
+    <loc>//localhost:1313/tags/fairness-in-ai/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hiring-algorithms/</loc>
+    <loc>//localhost:1313/tags/hiring-algorithms/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="//localhost:1313/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="//localhost:1313/fr/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blogs/ai-bias/</loc>
+    <loc>//localhost:1313/blogs/ai-bias/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-ethics/</loc>
+    <loc>//localhost:1313/tags/data-ethics/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-privacy/</loc>
+    <loc>//localhost:1313/tags/data-privacy/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/informed-consent/</loc>
+    <loc>//localhost:1313/tags/informed-consent/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/survey-design/</loc>
+    <loc>//localhost:1313/tags/survey-design/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/survey/</loc>
+    <loc>//localhost:1313/blogs/survey/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-06-10T14:51:04-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="//localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="//localhost:1313/fr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categories/"
+                href="//localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="//localhost:1313/fr/categories/"
                 />
   </url>
 </urlset>

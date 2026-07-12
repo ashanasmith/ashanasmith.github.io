@@ -1,22 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
 /* Backgrounds */
 body,
 body.light,
 #content,
 .light > * {
     background-color: #FEFBF9 !important;
-    color: #E33667 !important;
+    color: #EB3F6C !important;
 }
 
 /* Cards & sections */
 section:nth-child(even),
 .card,
 .list-group-item {
-    background-color: #E33667 !important;
+    background-color: #EB3F6C !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #E33667 !important;
+    color: #EB3F6C !important;
 }
 
 /* Body text */
@@ -51,7 +52,7 @@ a:hover {
 .navbar,
 .navbar-nav,
 .nav-link {
-    background-color: #E33667 !important;
+    background-color: #EB3F6C !important;
 }
 
 .nav-link {
@@ -83,7 +84,7 @@ a:hover {
 /* About Me heading */
 #about h3,
 #about h2 {
-    color: #ffff !important;
+    color: #1B1212 !important;
 }
 
 /* Logo / Name in the navbar */
@@ -112,10 +113,51 @@ html body .navbar-brand {
 #single .page-content h4,
 #single .page-content h5,
 #single .page-content h6 {
-    color: #E33667 !important; /* Your preferred heading color */
+    color: #EB3F6C !important; /* Your preferred heading color */
 }
 
 /* Contact section text */
 #contact p {
     color: #ffff !important;
+}
+.theme-toggle,
+#theme-toggle,
+#themeButton,
+.navbar .btn {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.theme-toggle i,
+#theme-toggle i {
+    background: transparent !important;
+}
+/* About Me text */
+#about .content,
+#about .content p,
+#about .content li {
+    font-family: "Lora", serif !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    line-height: 2.2rem !important;
+    color: #FFFFFF !important;
+}
+/* Skills list */
+#about ul li {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    line-height: 2rem !important;
+}
+#about .content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.hero-bottom-svg svg {
+    display: none !important;
+}
+.hero-bottom-svg {
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
 }

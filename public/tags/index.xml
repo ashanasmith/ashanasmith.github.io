@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tags on Ashana Profile</title>
-		<link>//localhost:1313/tags/</link>
-		<description>Recent content in Tags on Ashana Profile</description>
+		<title>Tags on Ashana Smith</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Ashana Smith</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,68 +12,68 @@
 		
 			<lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AI Ethics</title>
-				<link>//localhost:1313/tags/ai-ethics/</link>
+				<link>http://localhost:1313/tags/ai-ethics/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/ai-ethics/</guid>
+				<guid>http://localhost:1313/tags/ai-ethics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Algorithimic Bias</title>
-				<link>//localhost:1313/tags/algorithimic-bias/</link>
+				<link>http://localhost:1313/tags/algorithimic-bias/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/algorithimic-bias/</guid>
+				<guid>http://localhost:1313/tags/algorithimic-bias/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Amazon Case Study</title>
-				<link>//localhost:1313/tags/amazon-case-study/</link>
+				<link>http://localhost:1313/tags/amazon-case-study/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/amazon-case-study/</guid>
+				<guid>http://localhost:1313/tags/amazon-case-study/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Fairness in AI</title>
-				<link>//localhost:1313/tags/fairness-in-ai/</link>
+				<link>http://localhost:1313/tags/fairness-in-ai/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/fairness-in-ai/</guid>
+				<guid>http://localhost:1313/tags/fairness-in-ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hiring Algorithms</title>
-				<link>//localhost:1313/tags/hiring-algorithms/</link>
+				<link>http://localhost:1313/tags/hiring-algorithms/</link>
 				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/hiring-algorithms/</guid>
+				<guid>http://localhost:1313/tags/hiring-algorithms/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Data Ethics</title>
-				<link>//localhost:1313/tags/data-ethics/</link>
+				<link>http://localhost:1313/tags/data-ethics/</link>
 				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/data-ethics/</guid>
+				<guid>http://localhost:1313/tags/data-ethics/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Data Privacy</title>
-				<link>//localhost:1313/tags/data-privacy/</link>
+				<link>http://localhost:1313/tags/data-privacy/</link>
 				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/data-privacy/</guid>
+				<guid>http://localhost:1313/tags/data-privacy/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Informed Consent</title>
-				<link>//localhost:1313/tags/informed-consent/</link>
+				<link>http://localhost:1313/tags/informed-consent/</link>
 				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/informed-consent/</guid>
+				<guid>http://localhost:1313/tags/informed-consent/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Survey Design</title>
-				<link>//localhost:1313/tags/survey-design/</link>
+				<link>http://localhost:1313/tags/survey-design/</link>
 				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>//localhost:1313/tags/survey-design/</guid>
+				<guid>http://localhost:1313/tags/survey-design/</guid>
 				<description></description>
 			</item>
 	</channel>

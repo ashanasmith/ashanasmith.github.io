@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href="/images/ashana.jpg" type="image/gif">
+<link rel="icon" href="/fav.png" type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +28,8 @@
 
 
 
-<meta property="og:url" content="//localhost:1313/blogs/ai-bias/">
-	<meta property="og:site_name" content="Ashana Profile">
+<meta property="og:url" content="http://localhost:1313/blogs/ai-bias/">
+	<meta property="og:site_name" content="Ashana Smith">
 	<meta property="og:title" content="When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool ">
 	<meta property="og:description" content="A look at how Amazon&#39;s AI hiring tool absorbed human bias and what it teaches us about fair automation.">
 	<meta property="og:locale" content="en_us">
@@ -52,7 +52,7 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/blogs/ai-bias/" title="English">
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/blogs/ai-bias/" title="English">
   
   
   <meta property="og:locale" content="en">
@@ -68,13 +68,13 @@
 
 <style>
     :root {
-        --text-color: #F8FAFC;
-        --text-secondary-color: #BFC8D6;
-        --text-link-color: #F4B6D8;
-        --background-color: #10141A;
-        --secondary-background-color: #202938;
-        --primary-color: #8B728E;
-        --secondary-color: #B39BC8;
+        --text-color: #1B1212;
+        --text-secondary-color: #1B1212;
+        --text-link-color: #92E336;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #4b4641;
+        --secondary-color: #f8f9fa;
 
          
         --text-color-dark: #e4e6eb;
@@ -130,11 +130,9 @@
 
   
   
-    <link rel="stylesheet" href="/style.css">
-  
 
   <title>
-When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana Profile
+When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana Smith
 
   </title>
 </head>
@@ -167,43 +165,22 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
 
 
 
-<script>
-    var prevScrollPos = window.pageYOffset;
-    window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
-        } else {
-            resetHeaderStyle = true;
-        }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;
-    });
-</script>
-
-
 
 <header id="profileHeader">
-    <nav class="pt-3 navbar navbar-expand-lg animate">
+    <nav class="pt-3 navbar navbar-expand-lg ">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/images/ashana.jpg" width="30" height="30"
-                    class="d-inline-block align-top">
-                Ashana Smith
+                
                 
             </a>
 
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
             
 
             
@@ -218,13 +195,13 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav ms-auto text-center">
                     
-
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#about" aria-label="about">
-                            About Me
-                        </a>
-                    </li>
+
                     
 
                     
@@ -448,22 +425,22 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text=A%20look%20at%20how%20Amazon%27s%20AI%20hiring%20tool%20absorbed%20human%20bias%20and%20what%20it%20teaches%20us%20about%20fair%20automation. %2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text=A%20look%20at%20how%20Amazon%27s%20AI%20hiring%20tool%20absorbed%20human%20bias%20and%20what%20it%20teaches%20us%20about%20fair%20automation. http%3a%2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&url=%2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f&hashtags=AI%20Ethics%2cHiring%20Algorithms%2cFairness%20in%20AI%2cAmazon%20Case%20Study%2cAlgorithimic%20Bias'>
+                  <a target="_blank" href='https://twitter.com/share?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f&hashtags=AI%20Ethics%2cHiring%20Algorithms%2cFairness%20in%20AI%2cAmazon%20Case%20Study%2cAlgorithimic%20Bias'>
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20: %2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20: http%3a%2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&amp;body=Check%20out%20this%20site %2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f'>
+                  <a target="_blank" href='mailto:?subject=When%20AI%20Learns%20Human%20Bias%3a%20Lessons%20from%20Amazon%e2%80%99s%20AI%20Recruiting%20Tool%20&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fblogs%2fai-bias%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -511,7 +488,7 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
 
   
   let stickySideBarElem = document.getElementById("stickySideBar");
-  let stickyNavBar =  true ;
+  let stickyNavBar =  false ;
   if(stickyNavBar) {
     let headerElem = document.getElementById("profileHeader");
     let headerHeight = headerElem.offsetHeight + 15;
@@ -547,13 +524,6 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
 </div><div class="container py-4">
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
-            
-                <div class="pb-2">
-                    <a href="//localhost:1313/" title="Ashana Profile">
-                        <img alt="Footer logo" src="/images/ashana.jpg"
-                            height="40px" width="40px">
-                    </a>
-                </div>
             
             &copy; 2026  All Rights Reserved
             <div class="text-secondary">
@@ -604,6 +574,12 @@ When AI Learns Human Bias: Lessons from Amazon’s AI Recruiting Tool  | Ashana 
 
 </script>
 
+
+    <script>
+      
+      window.searchIndexURL = "/index.json";
+    </script>
+    <script src="/js/search.js"></script>
 
 
 

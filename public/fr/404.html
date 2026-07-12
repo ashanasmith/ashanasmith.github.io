@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href="/images/ashana.jpg" type="image/gif">
+<link rel="icon" href="/fav.png" type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,27 +28,25 @@
 
 
 
-<meta property="og:url" content="//localhost:1313/fr/404.html">
-	<meta property="og:site_name" content="Ashana Profile">
+<meta property="og:url" content="http://localhost:1313/fr/404.html">
+	<meta property="og:site_name" content="Ashana Smith">
 	<meta property="og:title" content="404 Page not found">
-	<meta property="og:description" content="Data Analytics &amp; AI Portfolio">
 	<meta property="og:locale" content="fr">
 	<meta property="og:type" content="website">
 
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="404 Page not found">
-	<meta name="twitter:description" content="Data Analytics &amp; AI Portfolio">
 
 
 
 
   
-    <link rel="alternate" hreflang="en" href="//localhost:1313/404.html" title="English">
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/404.html" title="English">
   
-    <link rel="alternate" hreflang="es" href="//localhost:1313/es/404.html" title="Español">
+    <link rel="alternate" hreflang="es" href="http://localhost:1313/es/404.html" title="Español">
   
-    <link rel="alternate" hreflang="fr" href="//localhost:1313/fr/404.html" title="Français">
+    <link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/404.html" title="Français">
   
   
   <meta property="og:locale" content="fr">
@@ -68,13 +66,13 @@
 
 <style>
     :root {
-        --text-color: #F8FAFC;
-        --text-secondary-color: #BFC8D6;
-        --text-link-color: #F4B6D8;
-        --background-color: #10141A;
-        --secondary-background-color: #202938;
-        --primary-color: #8B728E;
-        --secondary-color: #B39BC8;
+        --text-color: #1B1212;
+        --text-secondary-color: #1B1212;
+        --text-link-color: #92E336;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #4b4641;
+        --secondary-color: #f8f9fa;
 
          
         --text-color-dark: #e4e6eb;
@@ -121,16 +119,14 @@
 
 
 
-<meta name="description" content=Data&#32;Analytics&#32;&amp;&#32;AI&#32;Portfolio>
+<meta name="description" content=ZgotmplZ>
 
 
   
-  
-    <link rel="stylesheet" href="/style.css">
   
 
   <title>
-Page non trouvée | Ashana Profile
+Page non trouvée | Ashana Smith
 
   </title>
 </head>
@@ -163,43 +159,22 @@ Page non trouvée | Ashana Profile
 
 
 
-<script>
-    var prevScrollPos = window.pageYOffset;
-    window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
-        } else {
-            resetHeaderStyle = true;
-        }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;
-    });
-</script>
-
-
 
 <header id="profileHeader">
-    <nav class="pt-3 navbar navbar-expand-lg animate">
+    <nav class="pt-3 navbar navbar-expand-lg ">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
             <a class="navbar-brand primary-font text-wrap" href="/fr/">
                 
-                <img src="/images/ashana.jpg" width="30" height="30"
-                    class="d-inline-block align-top">
-                Ashana Smith
+                
                 
             </a>
 
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Rechercher...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
             
 
             
@@ -214,13 +189,13 @@ Page non trouvée | Ashana Profile
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav ms-auto text-center">
                     
-
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Rechercher...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/fr/#about" aria-label="about">
-                            À Propos de Moi
-                        </a>
-                    </li>
+
                     
 
                     
@@ -336,13 +311,6 @@ Page non trouvée | Ashana Profile
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             
-                <div class="pb-2">
-                    <a href="//localhost:1313/" title="Ashana Profile">
-                        <img alt="Footer logo" src="/images/ashana.jpg"
-                            height="40px" width="40px">
-                    </a>
-                </div>
-            
             &copy; 2026  Tous droits réservés
             <div class="text-secondary">
                 Made with
@@ -392,6 +360,12 @@ Page non trouvée | Ashana Profile
 
 </script>
 
+
+    <script>
+      
+      window.searchIndexURL = "/fr/index.json";
+    </script>
+    <script src="/js/search.js"></script>
 
 
 

@@ -566,7 +566,7 @@ params:
     intro: "Hi, my name is"
     title: "Ashana."
     subtitle: "I build solutions with data and AI"
-    content: "Data Analyst & AI Student passionate about analystics, automation, and turning data into meaningful insisghts."
+    content: "Data Analyst & AI Student passionate about analytics, automation, and using data to drive meaningful insights and informed decision-making.."
     image: /images/ashana.jpg
     bottomImage:
       enable: true
@@ -590,7 +590,7 @@ params:
     title: "About Me"
     image: "/images/ashana.jpg"
     content: |-
-      I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. These experiences have strengthened my communication, organization, and analytical skills while teaching me the value of making informed, data-driven decisions. I’m passionate about using data and AI to solve real-world problems and continuously expanding my technical knowledge through hands-on projects.
+      I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. My experience has strengthened my communication, organizational, and analytical skills while fostering a passion for data-driven decision-making. I enjoy using data and AI to solve real-world problems and am committed to continuously developing my technical skills through hands-on projects and continuous learning.
 
     skills:
       enable: true

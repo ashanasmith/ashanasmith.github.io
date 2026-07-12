@@ -1,6 +1,6 @@
 baseURL: "https://ashanasmith.github.io/"
 languageCode: "en-us"
-title: "Ashana Smith"
+title: "Ashana Profile"
 theme: hugo-profile
 
 # Multilingual configuration
@@ -462,6 +462,31 @@ markup:
     renderer:
       unsafe: true
 
+Menus:
+  main:
+    - identifier: gallery
+      name: Gallery
+      title: Gallery
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
 params:
   title: "Hugo Profile"
   description: Text about my cool site
@@ -833,182 +858,3 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
-
-
-#params:
-  customCSS: true
-  title: "Ashana Smith"
-  description: "Data Analytics & AI Portfolio"
-  favicon: "/images/ashana.jpg"
-
-  useBootstrapCDN: false
-  mathjax: false
-  animate: true
-
-  theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light"
-
-  font:
-    fontSize: 1rem
-    fontWeight: 400
-    lineHeight: 1.5
-    textAlign: left
-
-  color:
-    textColor: "#F8FAFC"
-    secondaryTextColor: "#BFC8D6"
-    textLinkColor: "#F4B6D8"
-    backgroundColor: "#10141A"
-    secondaryBackgroundColor: "#202938"
-    primaryColor: "#8B728E"
-    secondaryColor: "#B39BC8"
-
-  navbar:
-    align: ms-auto
-    brandName: "Ashana Smith"
-    disableSearch: true
-
-    stickyNavBar:
-      enable: true
-      showOnScrollUp: true
-
-    enableSeparator: false
-
-    menus:
-      disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: true
-      disableContact: false
-
-  hero:
-    enable: true
-    intro: "Hi, my name is"
-    title: "Ashana."
-    subtitle: "I build solutions with data and AI"
-
-    content: "Data Analyst & AI Student passionate about analytics, automation, and turning data into meaningful insights."
-
-    image: "/images/ashana.jpg"
-
-    bottomImage:
-      enable: true
-
-    button:
-      enable: true
-      name: "Resume"
-      url: "/resume.pdf"
-      download: true
-      newPage: false
-
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/ashanasmith/Ashana-Smith
-
-        - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/ashana-smith
-
-  about:
-    enable: true
-    title: "About Me"
-    image: "/images/ashana.jpg"
-
-    content: |-
-      I am an aspiring Data Analyst and AI professional with a background in customer service, administration, and problem-solving. These experiences have strengthened my communication, organization, and analytical skills while teaching me the value of making informed, data-driven decisions. I'm passionate about using data and AI to solve real-world problems and continuously expanding my technical knowledge through hands-on projects.
-
-    skills:
-      enable: true
-      title: "I'm currently pursuing a Diploma in Data Analytics and Artificial Intelligence, where I'm developing skills in:"
-      items:
-        - SQL
-        - Python
-        - Excel
-        - Power BI
-        - Tableau
-        - Data Visualization
-
-        # Experience
-experience:
-  enable: true
-  items:
-    - company: "Chapman's Ice Cream"
-      jobs:
-        - name: "Production Line Worker"
-          date: "Feb 2024 - Jun 2024"
-          content: |-
-            - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
-            - Operated production equipment to ensure efficient workflow.
-            - Performed quality inspections to maintain product consistency.
-            - Packaged and prepared products for distribution.
-            - Followed food safety, sanitation, and workplace safety procedures.
-            - Maintained a clean and organized work environment.
-
-    - company: "Alliston Smiles Family Dentistry"
-      jobs:
-        - name: "Dental Receptionist / Administrator"
-          date: "Aug 2022 - Nov 2023"
-          content: |-
-            - Managed daily administrative operations while delivering exceptional patient service and maintaining accurate confidential records.
-            - Coordinated appointments and managed high-volume phone inquiries.
-            - Processed patient and insurance payments accurately.
-            - Maintained confidential patient records and updated documentation.
-            - Followed up on outstanding accounts to support office operations.
-            - Performed administrative tasks including filing, emailing, and document management.
-
-    - company: "Dollarama"
-      jobs:
-        - name: "Assistant Team Leader / Key Holder"
-          date: "May 2022 - Nov 2022"
-          content: |-
-            - Supported store operations by supervising staff, coordinating daily activities, and ensuring operational efficiency.
-            - Supervised daily store operations in the absence of management.
-            - Balanced cash registers and maintained financial accountability.
-            - Coached team members to improve productivity and performance.
-            - Organized workflow and delegated tasks effectively.
-            - Prepared daily operational and staffing reports.
-            - Managed inventory and stocked merchandise.
-
-    - company: "Tim & Heather's No Frills"
-      jobs:
-        - name: "Assistant Front-End Manager / Cashier"
-          date: "May 2018 - May 2022"
-          content: |-
-            - Delivered excellent customer service while supporting front-end operations in a high-volume retail environment.
-            - Assisted customers in person and over the phone.
-            - Resolved customer concerns and order issues professionally.
-            - Processed transactions, refunds, and exchanges accurately.
-            - Maintained cash drawer accuracy and balanced registers.
-            - Prepared and fulfilled online grocery orders efficiently.
-
-# Education
-education:
-  enable: true
-  index: false
-  items:
-    - title: "Data Analytics and Artificial Intelligence Diploma"
-      school:
-        name: "Eastern College, Moncton, NB"
-        url: "https://www.easterncollege.ca/"
-      date: "Expected Aug 2027"
-      content: |-
-        **Relevant Coursework**
-
-        - Data Visualization
-        - Machine Learning
-        - Predictive Analytics
-        - SQL for Data Analytics
-        - Database Management
-        - Python for Data Analytics
-
-    - title: "High School"
-      school:
-        name: "Centre Dufferin District High School"
-        url: "https://www.ugdsb.ca/o/cddhs"
-      content: |-
-        **Academic Achievements & Honours**
-
-        - Principal's Award Recipient – Recognized for outstanding leadership and positive contributions to the school community.
-        - Honour Roll (Grade 9)

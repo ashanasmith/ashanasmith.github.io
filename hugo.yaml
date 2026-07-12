@@ -566,7 +566,7 @@ params:
     intro: "Hi, my name is"
     title: "Ashana."
     subtitle: "I build solutions with data and AI"
-    content: "Data Analyst & AI Student passionate about analytics, automation, and using data to drive meaningful insights and informed decision-making.."
+    content: "Data Analyst & AI Student passionate about analytics, automation, and using data to drive meaningful insights and informed decision-making."
     image: /images/ashana.jpg
     bottomImage:
       enable: true

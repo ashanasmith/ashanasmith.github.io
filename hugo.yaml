@@ -488,6 +488,7 @@ Menus:
     #   weight: 2
 
 params:
+  customCSS: true
   title: "Ashana Smith"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from

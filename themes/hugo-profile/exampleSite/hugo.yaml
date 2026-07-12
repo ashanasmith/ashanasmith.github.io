@@ -19,11 +19,11 @@ languages:
           title: Blog posts
           url: /blogs
           weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+        #- identifier: gallery
+          #name: Gallery
+          #title: Image gallery
+          #url: /gallery
+          #weight: 2
   es:
     languageName: "Español"
     weight: 2

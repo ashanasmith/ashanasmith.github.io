@@ -554,7 +554,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: false
       disableProjects: true
       disableAchievements: true
@@ -609,29 +609,35 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Chapman's Ice Cream"
+        #companyUrl: "https://example.com"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-            info:
+          - name: "Production Line Worker"
+            date: "Feb 2024 - Jun 2024"
+            content: "
+            - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
+            - Operated production equipment to ensure efficient workflow.
+            - Performed quality inspections to maintain product consistency.
+            - Packaged and prepared products for distribution.
+            - Followed food safety, sanitation, and workplace safety procedures.
+            - Maintained a clean and organized work environment.."
+            #info:
               content: Working as a senior software developer
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
+            #featuredItems:
+              #fontAwesomeIcons:
+                #- icon: fa-brands fa-react
+                 # url: https://react.dev/
+                  #tooltip: Example tooltip content
+                #- icon: fab fa-x-twitter
+                  #url: https://example.com
                   # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+              #customIcons:
+                #- icon: /fav.png
+                  #url: "https://example.com"
+                  #tooltip: Example tooltip content
+          - #name: "Software Developer"
+            #date: "Jan 2022 - Dec 2023"
+            #content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
       - company: "Amazon"
         companyUrl: "https://example.com"
@@ -729,7 +735,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -751,7 +757,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile

@@ -1,6 +1,6 @@
 baseURL: "https://ashanasmith.github.io/"
 languageCode: "en-us"
-title: "Ashana Profile"
+title: "Ashana Smith"
 theme: hugo-profile
 
 # Multilingual configuration
@@ -462,13 +462,13 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
-      weight: 2
+#Menus:
+  #main:
+    #- identifier: gallery
+      #name: Gallery
+      #title: Gallery
+      #url: /gallery
+      #weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu

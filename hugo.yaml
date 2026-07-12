@@ -554,7 +554,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: true
+      disableExperience: false
       disableEducation: false
       disableProjects: true
       disableAchievements: true
@@ -614,15 +614,14 @@ params:
         jobs:
           - name: "Production Line Worker"
             date: "Feb 2024 - Jun 2024"
-            content: "
-            - Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
+            content: "- Supported daily production operations in a fast-paced food manufacturing environment while maintaining quality and safety standards.
             - Operated production equipment to ensure efficient workflow.
             - Performed quality inspections to maintain product consistency.
             - Packaged and prepared products for distribution.
             - Followed food safety, sanitation, and workplace safety procedures.
-            - Maintained a clean and organized work environment.."
+            - Maintained a clean and organized work environment."
             #info:
-              content: Working as a senior software developer
+              #content: Working as a senior software developer
             #featuredItems:
               #fontAwesomeIcons:
                 #- icon: fa-brands fa-react
